@@ -1,0 +1,7 @@
+pyeapi==0.8.1
+PyYAML
+pytest
+requests
+click
+rich
+jsonschema
