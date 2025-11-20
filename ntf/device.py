@@ -5,10 +5,7 @@ from typing import Any, Dict, Optional
 
 
 class Device:
-	"""Simple wrapper around pyeapi.Connection for Arista EOS devices.
-
-	Provides helper methods to run show/config commands and return parsed JSON.
-	"""
+	
 	def __init__(self, host: str, username: str, password: str, port: int = 443, transport: str = "https"):
 		self.host = host
 		self.username = username
